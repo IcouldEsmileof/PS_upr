@@ -1,0 +1,72 @@
+23.2.2020 г. 23:45:14;admin007;Admin;Промяна на роля на student1
+23.2.2020 г. 23:47:09;admin007;Admin;Успешен Loggin
+23.2.2020 г. 23:47:15;admin007;Admin;Промяна на роля на student1
+23.2.2020 г. 23:47:48;admin007;Admin;Промяна на активност на student1
+23.2.2020 г. 23:51:36;admin007;Admin;Успешен Loggin
+23.2.2020 г. 23:51:54;admin007;Admin;Промяна на роля на student1
+23.2.2020 г. 23:52:08;admin007;Admin;Промяна на активност на student2
+24.2.2020 г. 9:31:58;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:33:31;admin007;Admin;Успешен Loggin
+24.2.2020 г. 9:33:37;admin007;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:55:18;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:55:59;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:56:38;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:57:12;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:57:49;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:58:31;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 9:59:08;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 10:00:08;;Anonymous;Твърде много опити за логване
+24.2.2020 г. 10:00:48;admin007;Admin;Успешен Loggin
+6.3.2020 г. 15:22:35;;Anonymous;Твърде много опити за логване
+9.3.2020 г. 9:09:45;student1;Student;Успешен Loggin
+9.3.2020 г. 9:10:35;student1;Student;Успешен Loggin
+9.3.2020 г. 9:15:03;student1;Student;Успешен Loggin
+9.3.2020 г. 9:16:53;student1;Student;Успешен Loggin
+9.3.2020 г. 9:17:03;student1;Student;Успешен Loggin
+9.3.2020 г. 9:18:28;admin007;Admin;Успешен Loggin
+9.3.2020 г. 9:18:45;student1;Student;Успешен Loggin
+5.4.2020 г. 12:55:27;admin007;Admin;Успешен Loggin
+5.4.2020 г. 12:55:53;student1;Student;Успешен Loggin
+23.4.2020 г. 14:55:55;student1;Student;Успешен Loggin
+23.4.2020 г. 14:59:12;admin007;Admin;Успешен Loggin
+23.4.2020 г. 14:59:28;student2;Student;Успешен Loggin
+23.4.2020 г. 14:59:41;student1;Student;Успешен Loggin
+23.4.2020 г. 15:21:25;student1;Student;Успешен Loggin
+23.4.2020 г. 15:23:29;student1;Student;Успешен Loggin
+23.4.2020 г. 15:24:26;student1;Student;Успешен Loggin
+23.4.2020 г. 15:27:10;student1;Student;Успешен Loggin
+23.4.2020 г. 15:36:12;student1;Student;Успешен Loggin
+23.4.2020 г. 15:36:57;student1;Student;Успешен Loggin
+23.4.2020 г. 15:37:49;student1;Student;Успешен Loggin
+23.4.2020 г. 15:38:51;student1;Student;Успешен Loggin
+23.4.2020 г. 15:41:02;student1;Student;Успешен Loggin
+23.4.2020 г. 15:52:27;student1;Student;Успешен Loggin
+23.4.2020 г. 15:53:44;student1;Student;Успешен Loggin
+23.4.2020 г. 15:56:38;student1;Student;Успешен Loggin
+23.4.2020 г. 15:57:27;student1;Student;Успешен Loggin
+23.4.2020 г. 16:07:41;student1;Student;Успешен Loggin
+23.4.2020 г. 16:08:32;student1;Student;Успешен Loggin
+23.4.2020 г. 16:12:14;student1;Student;Успешен Loggin
+23.4.2020 г. 16:12:32;student1;Student;Успешен Loggin
+23.4.2020 г. 16:15:53;student1;Student;Успешен Loggin
+23.4.2020 г. 16:16:01;student1;Student;Успешен Loggin
+23.4.2020 г. 16:17:37;student1;Student;Успешен Loggin
+23.4.2020 г. 16:17:53;student1;Student;Успешен Loggin
+2.5.2020 г. 11:16:25;student1;Student;Успешен Loggin
+2.5.2020 г. 11:16:40;student1;Student;Успешен Loggin
+2.5.2020 г. 11:17:45;student1;Student;Успешен Loggin
+2.5.2020 г. 11:19:18;student1;Student;Успешен Loggin
+2.5.2020 г. 11:22:31;student1;Student;Успешен Loggin
+2.5.2020 г. 11:23:14;student1;Student;Успешен Loggin
+2.5.2020 г. 14:04:10;student1;Student;Успешен Loggin
+2.5.2020 г. 14:05:04;student1;Student;Успешен Loggin
+2.5.2020 г. 14:06:54;student1;Student;Успешен Loggin
+2.5.2020 г. 14:08:15;student1;Student;Успешен Loggin
+2.5.2020 г. 14:41:44;student1;Student;Успешен Loggin
+2.5.2020 г. 15:55:42;student1;4;Успешен Loggin
+2.5.2020 г. 17:50:54;student1;4;Успешен Loggin
+2.5.2020 г. 17:52:11;student1;4;Успешен Loggin
+17.5.2020 г. 11:36:56;admin007;1;Успешен Loggin
+7.6.2020 г. 19:47:48;admin007;1;Успешен Loggin
+7.6.2020 г. 19:47:58;student1;4;Успешен Loggin
+7.6.2020 г. 19:49:49;student1;4;Успешен Loggin

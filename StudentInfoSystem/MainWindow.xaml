@@ -1,0 +1,108 @@
+﻿<Window x:Class="StudentInfoSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentInfoSystem"
+        xmlns:ViewModel="clr-namespace:StudentInfoSystem"
+        mc:Ignorable="d"
+        Title="Студенска информация" Height="550" Width="625">
+    <Window.DataContext>
+        <ViewModel:MainWindowVIewModel/>
+    </Window.DataContext>
+    <Grid x:Name="mainGrid" IsEnabled="{Binding IsEnabled}">
+        <GroupBox x:Name="gbPdate" Header="Лични Данни" HorizontalAlignment="Left" Height="160" VerticalAlignment="Top"
+                  Width="509" Margin="20,10,0,0">
+            <Grid x:Name="grPdata" Margin="0,12,0,-12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Column="0" Grid.Row="0" x:Name="lbName" Content="Име:" HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Margin="10,10,0,0" />
+                <TextBox Grid.Column="1" Grid.Row="0" x:Name="txbName" HorizontalAlignment="Left" Height="23"
+                         TextWrapping="Wrap"
+                         VerticalAlignment="Top" Width="237" Margin="10,13,0,0" Text="{Binding Student.Name}"/>
+                <Label Grid.Column="0" Grid.Row="1" x:Name="lbSname" Content="Презиме:" HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Margin="10,10,0,0" />
+                <TextBox Grid.Column="1" Grid.Row="1" x:Name="txbSname" HorizontalAlignment="Left" Height="23"
+                         TextWrapping="Wrap" Text="{Binding Student.Surname}"
+                         VerticalAlignment="Top" Width="237" Margin="10,13,0,0" />
+                <Label Grid.Column="0" Grid.Row="2" x:Name="lbFname" Content="Фамилия:" HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Margin="10,10,0,0" />
+                <TextBox Grid.Column="1" Grid.Row="2" x:Name="txbFname" HorizontalAlignment="Left" Height="23"
+                         TextWrapping="Wrap" Text="{Binding Student.FamilyName}"
+                         VerticalAlignment="Top" Width="237" Margin="10,10,0,0" />
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="gbSdata" Header="Студенска информация" HorizontalAlignment="Left" Height="291"
+                  VerticalAlignment="Top" Width="509" Margin="20,192,0,0">
+            <Grid x:Name="grSdata" Margin="0,12,0,-12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Column="0" Grid.Row="0" Margin="5,0,0,0" x:Name="lbFac" Content="Факултет:"
+                       VerticalAlignment="Center" HorizontalAlignment="Left" />
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="txbFac" HorizontalAlignment="Left" Height="23"
+                         TextWrapping="Wrap" Width="237" Margin="10,15,10,15" Text="{Binding Student.Fac}"/>
+                <Label Grid.Row="1" Grid.Column="0" x:Name="lbSpec" Content="Специалност:" HorizontalAlignment="Left"
+                       VerticalAlignment="Center" Margin="5,0,0,0" />
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="txbSpec" HorizontalAlignment="Center" Height="23"
+                         TextWrapping="Wrap" Margin="10,15,10,15"
+                         VerticalAlignment="Center" Width="237" Text="{Binding Student.Spec}"/>
+
+                <Label Grid.Row="2" Grid.Column="0" x:Name="lbOKS" Content="ОКС:" VerticalAlignment="Center"
+                       HorizontalAlignment="Left" Margin="5,0,0,0" />
+                <TextBox Grid.Row="2" Grid.Column="1" x:Name="txbOKS" VerticalAlignment="Center"
+                         HorizontalAlignment="Center" Height="23"
+                         TextWrapping="Wrap" Margin="10,15,10,15"
+                         Width="237" Text="{Binding Student.OKS}"/>
+                <Label Grid.Row="3" Grid.Column="0" x:Name="lbSt" Content="Статус" VerticalAlignment="Center"
+                       HorizontalAlignment="Left" Margin="5,0,0,0" />
+                <ComboBox Grid.Row="3" Grid.Column="1" x:Name="cbSt" VerticalAlignment="Center"
+                          HorizontalAlignment="Center" Margin="10,15,10,15"
+                          Width="237" ItemsSource="{Binding StudStatusChoices}" />
+                <Label Grid.Row="4" Grid.Column="0" x:Name="lbFacNo" Content="Фак. Номер:" HorizontalAlignment="Left"
+                                                                                                            VerticalAlignment="Center" Margin="5,0,0,0" />
+                <TextBox Grid.Row="4" Grid.Column="1" x:Name="txbFacNo" Margin="10,15,10,15" Height="23"
+                         TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Width="237" 
+                         Text="{Binding Student.FacNo}"/>
+                <Label Grid.Row="0" Grid.Column="2" x:Name="lbK" Content="Курс:" VerticalAlignment="Center"
+                       HorizontalAlignment="Left" Margin="15,0,0,0" />
+                <TextBox Grid.Row="0" Grid.Column="3" x:Name="txbK" VerticalAlignment="Center"
+                         HorizontalAlignment="Center" Height="23"
+                         TextWrapping="Wrap" Width="66" Text="{Binding Student.Kurs}"/>
+                <Label Grid.Row="1" Grid.Column="2" x:Name="lbPo" Content="Поток:" VerticalAlignment="Center"
+                       HorizontalAlignment="Left" Margin="15,0,0,0" />
+                <TextBox Grid.Row="1" Grid.Column="3" x:Name="txbPo" VerticalAlignment="Center"
+                         HorizontalAlignment="Center" Height="23"
+                         TextWrapping="Wrap" Text="{Binding Student.Potok}"
+                         Width="66" />
+                <Label Grid.Row="2" Grid.Column="2" x:Name="lbGr" Content="Група:" VerticalAlignment="Center"
+                       HorizontalAlignment="Left" Margin="15,0,0,0" />
+                <TextBox Grid.Row="2" Grid.Column="3" x:Name="txbGr" Height="23"
+                         TextWrapping="Wrap" Text="{Binding Student.Group}"
+                         VerticalAlignment="Center" HorizontalAlignment="Center" Width="66" />
+
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

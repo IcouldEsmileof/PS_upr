@@ -1,0 +1,16 @@
+D:\Icould\C#\PS_project\PS_project\WpfExample\bin\Debug\WpfExample.exe.config
+D:\Icould\C#\PS_project\PS_project\WpfExample\bin\Debug\WpfExample.exe
+D:\Icould\C#\PS_project\PS_project\WpfExample\bin\Debug\WpfExample.pdb
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample.csprojAssemblyReference.cache
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\MainWindowView.g.cs
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\App.g.cs
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample_MarkupCompile.cache
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample_MarkupCompile.lref
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\MainWindowView.baml
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample.g.resources
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample.Properties.Resources.resources
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample.csproj.GenerateResource.cache
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample.csproj.CoreCompileInputs.cache
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample.exe
+D:\Icould\C#\PS_project\PS_project\WpfExample\obj\Debug\WpfExample.pdb

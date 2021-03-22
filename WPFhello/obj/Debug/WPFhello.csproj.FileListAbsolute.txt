@@ -1,0 +1,17 @@
+D:\Icould\C#\PS_project\PS_project\WPFhello\bin\Debug\WPFhello.exe.config
+D:\Icould\C#\PS_project\PS_project\WPFhello\bin\Debug\WPFhello.exe
+D:\Icould\C#\PS_project\PS_project\WPFhello\bin\Debug\WPFhello.pdb
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello.csprojAssemblyReference.cache
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\MainWindow.g.cs
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\App.g.cs
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello_MarkupCompile.cache
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello_MarkupCompile.lref
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\MainWindow.baml
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello.g.resources
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello.Properties.Resources.resources
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello.csproj.GenerateResource.cache
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello.csproj.CoreCompileInputs.cache
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello.exe
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\WPFhello.pdb
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\MyMessage.g.cs
+D:\Icould\C#\PS_project\PS_project\WPFhello\obj\Debug\MyMessage.baml
